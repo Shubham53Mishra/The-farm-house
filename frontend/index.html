@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm House - Invite, About Us, & Price List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<div class="header">
+    <div class="logo">
+        <img src="https://soyonexpress.com/html-demos/the-farm-house/img/home-slider/slide-2.jpg" alt="Farm House Logo">
+        <span>The Farm House</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">App</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="buy-now">Buy Now</a>
+</div>
+
+<!-- Main Content Section -->
+<div class="main-content">
+    <h1>Different <span class="highlight">crops</span></h1>
+    <p>Over 50 different crops.</p>
+</div>
+
+<!-- Social Icons -->
+<div class="social-icons">
+    <a href="#">&#x1F426; Facebook</a>
+    <a href="#">&#128038; Twitter</a>
+    <a href="#">&#127908; YouTube</a>
+</div>
+
+<!-- About Us Section -->
+<div class="container">
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>We have a lot of great new things for you but overall, the Farm Program we created in 2014 will remain.</p>
+        <div class="schedule">
+            <div class="schedule-item">
+                <div class="number">1</div>
+                <p>Mon-Fri: 4-6pm, City Cyclery 553, Windsor</p>
+            </div>
+            <div class="schedule-item">
+                <div class="number">2</div>
+                <p>Sat-Sun: 8am-1pm, Downtown Windsor Market</p>
+            </div>
+        </div>
+        <button class="contacts-btn" onclick="contactUs()">Contact Us</button>
+    </div>
+    <div class="image-section">
+        <img src="./img/about-right.png" alt="Vegetables">
+    </div>
+</div>
+
+<!-- JavaScript Function for Contact Us -->
+<script>
+    function contactUs() {
+        alert("Thank you for reaching out! Please call us or visit during our working hours.");
+    }
+</script>
+
+<!-- Product Slider Section -->
+<div class="product-slider">
+    <h1>Latest Products</h1>
+    <p>Directly from the farm, freshly grown for our clients.</p>
+    <div class="slider-container">
+        <div class="slider">
+            <!-- Group 1 -->
+            <div class="slide">
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-1.png" alt="Lettuce">
+                    <p>Fresh Lettuce</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-2.png" alt="Onion">
+                    <p>Fresh Onions</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-3.png" alt="Radish">
+                    <p>Crisp Radishes</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-4.png" alt="Watermelon">
+                    <p>Juicy Watermelons</p>
+                </div>
+            </div>
+            <!-- Group 2 -->
+            <div class="slide">
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-1.png" alt="Tomatoes">
+                    <p>Fresh Tomatoes</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-3.png" alt="Cabbage">
+                    <p>Fresh Cabbage</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-2.png" alt="Carrots">
+                    <p>Sweet Carrots</p>
+                </div>
+                <div class="card">
+                    <img src="https://soyonexpress.com/html-demos/the-farm-house/img/latest-products/product-4.png" alt="Peppers">
+                    <p>Colorful Peppers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<!-- Price List Section -->
+<div class="container">
+    <div class="price-list">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asparagus</td>
+                    <td>$4.50/bunch</td>
+                </tr>
+                <tr>
+                    <td>Broccoli</td>
+                    <td>$3.75/head</td>
+                </tr>
+                <tr>
+                    <td>Green Onion</td>
+                    <td>$3/bunch</td>
+                </tr>
+                <tr>
+                    <td>Carrots</td>
+                    <td>$3/bunch</td>
+                </tr>
+                <tr>
+                    <td>Hot Peppers</td>
+                    <td>$3.50/bunch</td>
+                </tr>
+                <tr>
+                    <td>Sweet Potato</td>
+                    <td>$2/lb.</td>
+                </tr>
+                <tr>
+                    <td>Zucchini</td>
+                    <td>$1/piece</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="description">
+        <h1>Price List</h1>
+        <p>We grow over 50 different crops & several varieties of each item; this is just a partial list.</p>
+        <p>These prices are subject to change without notice. <a href="#">Pictures shown</a> are from the seed catalogue websites.</p>
+        <button class="join-btn" onclick="contactUs()">Contact Us</button>
+    </div>
+</div>
+
+<!-- Product Gallery Section -->
+<header class="product-gallery-header">
+    <h1 class="gallery-title">Farmhouse Product Gallery</h1>
+    <nav class="gallery-menu">
+        <a href="#" class="menu-link active">All</a>
+        <a href="#" class="menu-link">Vegetables</a>
+        <a href="#" class="menu-link">Fruits</a>
+        <a href="#" class="menu-link">Discount</a>
+        <a href="#" class="menu-link">Seasonal</a>
+    </nav>
+</header>
+
+<main class="gallery-container">
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Tomatoes" class="item-image">
+        <p class="item-name">Tomatoes</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Mushrooms" class="item-image">
+        <p class="item-name">Mushrooms</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Broccoli" class="item-image">
+        <p class="item-name">Broccoli</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Ginger" class="item-image">
+        <p class="item-name">Ginger</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Potatoes" class="item-image">
+        <p class="item-name">Potatoes</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Radishes" class="item-image">
+        <p class="item-name">Radishes</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Garlic" class="item-image">
+        <p class="item-name">Garlic</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./img/product-1.png" alt="Bananas" class="item-image">
+        <p class="item-name">Bananas</p>
+    </div>
+</main>
+
+<!-- Questions Section -->
+<div class="unique-questions-container">
+    <div class="unique-questions-content">
+        <h1 class="unique-questions-title">Questions</h1>
+        <ul class="unique-questions-list">
+            <li>
+                <span>What type of produce can you expect?</span>
+                <a href="#" class="unique-arrow-link">></a>
+            </li>
+            <li>
+                <span>How do you make payment for The Farm House?</span>
+                <a href="#" class="unique-arrow-link">></a>
+            </li>
+            <li>
+                <span>How long is the season?</span>
+                <a href="#" class="unique-arrow-link">></a>
+            </li>
+            <li>
+                <span>What type of produce can you expect?</span>
+                <a href="#" class="unique-arrow-link">></a>
+            </li>
+            <li>
+                <span>How much of an experience do you guys have?</span>
+                <a href="#" class="unique-arrow-link">></a>
+            </li>
+        </ul>
+    </div>
+    <div class="unique-questions-image">
+        <img src="./img/faq-right.png" alt="Farmer with vegetables">
+    </div>
+</div>
+
+<!-- Reviews Section -->
+<div class="unique-reviews-section">
+    <div class="unique-reviews-overlay">
+        <div class="unique-reviews-content">
+            <h1 class="unique-reviews-title">Reviews</h1>
+            <blockquote id="review-text" class="unique-review-quote">
+                "I believe it’s the organic foods and quality of the natural ingredients that help me feel this great."
+            </blockquote>
+            <p id="review-author" class="unique-review-author">- KATE JONSON</p>
+            <div class="unique-buttons">
+                <button onclick="changeText(1)" class="unique-button">Review 1</button>
+                <button onclick="changeText(2)" class="unique-button">Review 2</button>
+                <button id="toggle-button" onclick="toggleText()" class="unique-button">Change Review</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Logo Slider Section -->
+<div class="unique-slider-wrapper">
+    <div class="unique-slider-track">
+        <img src="./img/sponsor-4.png" alt="Dairy Farm">
+        <img src="./img/sponsor-1.png" alt="Farmer's Market">
+        <img src="./img/sponsor-3.png" alt="Fresh Produce">
+        <img src="./img/sponsor-1.png" alt="Organic Farm">
+        <img src="./img/sponsor-4.png" alt="Farm Fresh">
+        <img src="./img/sponsor-1.png" alt="Farmer's Market">
+        <img src="./img/sponsor-3.png" alt="Fresh Produce">
+        <img src="./img/sponsor-1.png" alt="Organic Farm">
+        <img src="./img/sponsor-4.png" alt="Farm Fresh">
+    </div>
+</div>
+
+<!-- App Section -->
+<div class="app-section-container">
+    <div class="app-section-content">
+        <h2 class="app-section-title">Our App</h2>
+        <p class="app-section-description">Our App looks great on any device! Download it today:</p>
+        <div class="app-store-buttons">
+            <a href="#" class="app-store-link">
+                <img src="https://via.placeholder.com/150x50?text=App+Store" alt="App Store">
+            </a>
+            <a href="#" class="app-store-link">
+                <img src="https://via.placeholder.com/150x50?text=Google+Play" alt="Google Play">
+            </a>
+        </div>
+    </div>
+    <div class="app-section-image">
+        <img src="./img/app-mobile-view.png" alt="App Mockup">
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="contact-container">
+    <div class="contact-content">
+        <h1 class="contact-title">Contact Details</h1>
+        <div class="contact-wrap">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div>
+                        <input type="text" id="name" placeholder="Name*" required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" placeholder="Email*" required>
+                    </div>
+                    <div>
+                        <input type="text" id="phone" placeholder="Phone">
+                    </div>
+                    <div>
+                        <select id="purpose">
+                            <option value="" disabled selected>Purpose of the message</option>
+                            <option value="Inquiry">Inquiry</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Support">Support</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea id="message" placeholder="Message ..." required></textarea>
+                    </div>
+                    <button type="button" class="submit-button" id="submitButton">Submit</button>
+                </form>
+                 
+            </div>
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-info-box">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>690 School House Road Jackson, MS 39201</p>
+                    </div>
+                </div>
+                <div class="contact-info-box">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <h3>Phone & Fax</h3>
+                        <p>(012) 345-6789 or 555-6578 987</p>
+                    </div>
+                </div>
+                <div class="contact-info-box">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h3>Our Email</h3>
+                        <p>contact@the-farm-house.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <p>
+      &copy; 2018 The Farm House 
+      <span class="heart">❤</span> 
+      by <span class="brand">ENVALAB</span>
+    </p>
+  </footer>
+  
+
+<script src="script.js"></script>
+
+</body>
+</html>
